@@ -17,6 +17,12 @@ ENV/
 instance/
 .webassets-cache
 
+# flask_forms output
+file.txt
+
+# Vendored / third-party assets
+bootstrap-5.3.8-examples/
+
 # Distribution / packaging
 build/
 dist/
