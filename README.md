@@ -1,13 +1,20 @@
 # Python-Flask
 
-A collection of beginner-to-intermediate Flask projects built while learning the Flask web framework — covering routing, templates, and multi-page site structure.
+🐍 Learning Flask from scratch — routing, Jinja templates, and the basics of backend web development, one step at a time.
 
-## Projects
+---
 
-### 1. flask_basics
-A minimal Flask app demonstrating a single route rendering an HTML template.
-- `main.py` — Flask app with one route (`/`)
-- `templates/index.html` — rendered homepage
+## What's Inside
+
+### 1. `flask_basics/`
+My first Flask app. One route, one rendered HTML template — just getting a feel for how Flask works.
+
+```
+flask_basics/
+├── main.py
+└── templates/
+    └── index.html
+```
 
 **Run it:**
 ```bash
@@ -15,12 +22,22 @@ cd flask_basics
 pip install flask
 python main.py
 ```
-Visit `http://127.0.0.1:5000/` in your browser.
+Open `http://127.0.0.1:5000/` in your browser.
 
-### 2. flask_static_site
-A multi-page Flask site with separate routes for Home, About, Services, and Contact pages, each rendered via Jinja templates. Includes Bootstrap for styling.
-- `main.py` — Flask app with four routes (`/`, `/about`, `/services`, `/contact`)
-- `templates/` — HTML templates for each page
+---
+
+### 2. `flask_static_site/`
+A multi-page Flask site with four routes — Home, About, Services, and Contact — each rendering its own Jinja template. Built to understand how Flask handles multiple pages and URL routing.
+
+```
+flask_static_site/
+├── main.py
+└── templates/
+    ├── home.html
+    ├── about.html
+    ├── services.html
+    └── contact.html
+```
 
 **Run it:**
 ```bash
@@ -28,17 +45,22 @@ cd flask_static_site
 pip install flask
 python main.py
 ```
-Visit `http://127.0.0.1:5000/` in your browser.
+Open `http://127.0.0.1:5000/` in your browser.
+
+---
 
 ## Tech Stack
 - Python
 - Flask
-- Jinja2 (HTML templating)
-- Bootstrap
+- Jinja2
+
+---
 
 ## About
-This repo is part of my journey learning backend web development with Flask. More routes, features, and projects will be added as I progress.
+This repo is part of my learning journey into backend web development. Still exploring — more coming as I go deeper into Flask.
+
+---
 
 ## Author
-**Deepanshu Bisht**
+**Deepanshu Bisht**  
 GitHub: [@deepanshu-bisht-dev](https://github.com/deepanshu-bisht-dev)
