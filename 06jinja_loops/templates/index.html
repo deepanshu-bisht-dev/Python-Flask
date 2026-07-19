@@ -11,8 +11,8 @@
     {# This is how we write comments in jinja #}
     {# For writing a loop in jinja simply type "j.for" and it will auto write the loop just you have to do the changes out there and getthe output you want..#}
     
-    {% for name, marks in marks.items() %}
-        <p>{{ name }}'s marks are  {{ marks }}</p>
+        {% for key in marks.keys() %}
+    <li> The marks of {{key}} is {{marks.get(key)}}
     {% endfor %}
     
 </body>
