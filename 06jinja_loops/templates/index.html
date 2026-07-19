@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class X - Delhi Public School</title>
+</head>
+<body>
+    
+    <h1>Students and their marks</h1>
+    {# This is how we write comments in jinja #}
+    {# For writing a loop in jinja simply type "j.for" and it will auto write the loop just you have to do the changes out there and getthe output you want..#}
+    
+    {% for name, marks in marks.items() %}
+        <p>{{ name }}'s marks are  {{ marks }}</p>
+    {% endfor %}
+    
+</body>
+</html>
