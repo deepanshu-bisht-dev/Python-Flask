@@ -1,51 +1,44 @@
-# Byte-compiled / cache files
+# --- Byte-compiled / cache files ---
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
+# --- Virtual environments ---
 venv/
 env/
-ENV/
 .venv/
+.env/
+ENV/
 
-# Environment variables / secrets
+# --- Environment variables / secrets ---
 .env
-.env.*
+*.env
 
-# Flask
+# --- Flask specific ---
 instance/
-.webassets-cache
+.flaskenv
+*.db
+*.sqlite3
 
-# flask_forms output
-file.txt
-
-# Vendored / third-party assets
-bootstrap-5.3.8-examples/
-
-# Distribution / packaging
+# --- Distribution / packaging ---
 build/
 dist/
 *.egg-info/
+*.egg
 
-# Logs
+# --- Logs ---
 *.log
 
-# Database
-*.sqlite3
-db.sqlite3
+# --- OS files ---
+.DS_Store
+Thumbs.db
 
-# IDE / editor
+# --- Editor / IDE files ---
 .vscode/
 .idea/
 *.swp
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Test / coverage
+# --- Test / coverage ---
 .pytest_cache/
 .coverage
 htmlcov/
-
