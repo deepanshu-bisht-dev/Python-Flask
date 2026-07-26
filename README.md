@@ -18,7 +18,7 @@
 
 If you're learning Flask, or just here to see "what is this person building" — **welcome, you're in the right place.** 👏
 
-This isn't a fancy production-grade project. It's a **learning journey** — one concept, one folder, one step at a time. From baby-step basics all the way to building APIs. 🚀
+This isn't a fancy production-grade project. It's a learning journey — one concept, one folder, one step at a time. From baby-step basics all the way to building APIs. 🚀
 
 ---
 
