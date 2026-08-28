@@ -10,7 +10,7 @@ def hello_world():
     
 @app.route("/logout")
 def logout():
-    flash("You have been logged out!", "success")
+    flash("You have been logged out!!", "success")
     return render_template("logout.html")
 
 
