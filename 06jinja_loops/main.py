@@ -11,7 +11,7 @@ def hello_world():
     "Sneha Iyer": 88,
     "Kabir Singh": 95,
     "Ananya Patel": 81,
-    "Vivaan Joshi": 76,
+    "Vivan Joshi": 76,
     "Meera Reddy": 89,
     "Aryan Kapoor": 94,
     "Zara Bisht": 72,
