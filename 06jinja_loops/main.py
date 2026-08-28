@@ -14,7 +14,7 @@ def hello_world():
     "Vivan Joshi": 76,
     "Meera Reddy": 89,
     "Aryan Kapoor": 94,
-    "Zara Bisht": 72,
+    "Parul Bisht": 100,
     "Dev Malhotra": 83,
     "Riya Das": 90,
     "Yash Gupta": 79,
